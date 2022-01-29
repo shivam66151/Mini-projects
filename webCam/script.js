@@ -1,0 +1,28 @@
+//Stop Button
+var StopWebCam = function () {
+    var stream = video.srcObject;
+    var tracks = stream.getTracks();
+    
+        for (var i = 0; i<tracks.length; i++) {
+            var track = tracks[i];
+            track.stop();
+        }
+        video.srcObject = null;
+    }
+    //Video Start and Access Code
+    
+    var start = function () {
+        var video = document.getElementById("video"),
+        vendorURL = window.URL || window.webkitURL;
+    
+        if (navigator.mediaDevices.getUserMedia) {
+            navigator.mediaDevices.getUserMedia({ video:true })
+                    .then(function (stream) {
+                        video.srcObject = stream;
+                    }).catch(function  (error) {
+                        console.log("Something Went Wrong");
+                    });
+        }
+    }
+    //Start Function
+         $(function () { start(); });
