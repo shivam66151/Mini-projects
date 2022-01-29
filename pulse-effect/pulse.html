@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pulsing Effect</title>
+	<style type="text/css">
+		.live {
+			height: 24px;
+			width: 24px;
+			align-content: center;
+			border-radius: 50%;
+			background-color: #ff69b4;
+			animation: pulse 1500ms infinite;
+		}
+
+		@keyframes pulse {
+			0% {
+				box-shadow: #ff69b4 0 0 0 0; /* x y blur spread */ 
+			}
+			75% {
+				box-shadow:  #ff69b400 0 0 0 16px;
+			}
+		}
+	</style>
+</head>
+<body>
+     <div class="live">
+     </div>
+</body>
+</html>
