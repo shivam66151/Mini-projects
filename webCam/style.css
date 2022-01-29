@@ -1,0 +1,18 @@
+.webcam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .webcam-control{
+    text-decoration: none;
+    color: #000;
+    background: red;
+    padding: 10px 50px;
+    margin: 10px;
+    border-radius: 5px; 
+  }
+  .webcam-control > a{
+    box-shadow: 1px 1px 2px #f9f9f9;
+    color: #000;
+  }
