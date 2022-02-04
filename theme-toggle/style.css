@@ -13,3 +13,33 @@ body{
     color: #2c2d48;
     transition: background-color 1.5s, color 1s;
 }
+h1 {
+    font-weight: 900;
+}
+main {
+    margin-top: auto;
+}
+main h1 {
+    font-size: 60px;
+}
+
+p {
+    max-width: 720px;
+    font-size: 22px;
+    line-height: 1.6em;
+    text-align: justify;
+  }
+
+small {
+    font-size: 0.5em;
+    display: block;
+  }
+
+footer {
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: auto;
+    font-size: 2em;
+    text-align: center;
+  }
+
