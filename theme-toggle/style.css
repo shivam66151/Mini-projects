@@ -10,4 +10,6 @@ body{
     justify-content: center;
     font-family: poppins;
     background-color: #fcf8f5;
+    color: #2c2d48;
+    transition: background-color 1.5s;
 }
