@@ -9,8 +9,8 @@ body{
     align-items: center;
     justify-content: center;
     font-family: poppins;
-    background-color: #fcf8f5;
-    color: #2c2d48;
+    background-color: #222831;
+    color: #fcf8f5;
     transition: background-color 1.5s, color 1s;
 }
 h1 {
@@ -43,3 +43,7 @@ footer {
     text-align: center;
   }
 
+#dark-mode {
+    color: #dcdcdc;
+    background-color: #222831;
+}
